@@ -2,5 +2,6 @@
   "snapshot_sha256": "0b9d4f4e707cc644d57eaaaa598f2eadfff6cc7bfa3a365de8a29d51f8df0516",
   "generatedAt": "2026-09-07T17:07:20+08:00",
   "target": "https://github.com/lchwow1126-spec/macro-research-workbench",
-  "public_snapshot": true
+  "public_snapshot": true,
+  "syncProtocol": "validated-native-connector-v2"
 }
