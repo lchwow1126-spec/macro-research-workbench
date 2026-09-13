@@ -1,7 +1,7 @@
 {
-  "snapshot_sha256": "0b9d4f4e707cc644d57eaaaa598f2eadfff6cc7bfa3a365de8a29d51f8df0516",
-  "generatedAt": "2026-09-07T17:07:20+08:00",
-  "target": "https://github.com/lchwow1126-spec/macro-research-workbench",
+  "snapshot_sha256": "a400e81e47100f2af7c4f918e079a8445e3b065881bf47f937c575203239ce39",
+  "generatedAt": "2026-09-13T16:16:09+08:00",
+  "target": "https://lchwow1126-spec.github.io/macro-research-workbench/",
   "public_snapshot": true,
-  "syncProtocol": "validated-native-connector-v2"
+  "publication_protocol": "qa-bound-content-addressed-owner-publisher-v2"
 }
