@@ -1,7 +1,7 @@
 {
-  "snapshot_sha256": "a400e81e47100f2af7c4f918e079a8445e3b065881bf47f937c575203239ce39",
-  "generatedAt": "2026-09-13T16:16:09+08:00",
-  "target": "https://lchwow1126-spec.github.io/macro-research-workbench/",
-  "public_snapshot": true,
-  "publication_protocol": "qa-bound-content-addressed-owner-publisher-v2"
+  "target": "github-pages",
+  "protocol": "public-macro-v1",
+  "public_snapshot": "dashboard.json",
+  "generatedAt": "2026-09-13T19:15:14+08:00",
+  "sha256": "ff88381b5d2346a9cb6009d341dd9d12837a108cf57b5caaf790b6a02007155c"
 }
