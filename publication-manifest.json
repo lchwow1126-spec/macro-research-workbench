@@ -1,7 +1,6 @@
 {
-  "target": "github-pages",
-  "protocol": "public-macro-v1",
-  "public_snapshot": "dashboard.json",
-  "generatedAt": "2026-09-13T22:10:00+08:00",
-  "sha256": "0e9f225032d7c81da4791861ad1fde13a4ab462e978e96d6a7c751f268b07783"
+  "snapshot_sha256": "b74f500b239f106f11f453593b6700804533bb8b46a2d6769482a6d988a68b6a",
+  "generatedAt": "2026-09-27T13:16:24+08:00",
+  "target": "https://github.com/lchwow1126-spec/macro-research-workbench",
+  "public_snapshot": true
 }
