@@ -1,5 +1,9 @@
 {
-  "snapshot_sha256": "16c7a981e6d049b96bb7137e30d20ad520ef4d66e7768fd12becb812540841a7",
-  "generatedAt": "2026-10-05T13:54:29+08:00",
-  "public_snapshot": true
+  "snapshot_sha256": "088c3a4d6e67a2e0fedf6cd70be8c039b2e73686745239fbd2195f69fa0931a6",
+  "generatedAt": "2026-10-05T15:41:24+08:00",
+  "public_snapshot": true,
+  "report_date": "2026-10-04",
+  "market_close": "2026-10-02",
+  "research_version": "V8",
+  "all_current": false
 }
