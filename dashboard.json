@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-11T15:44:36+08:00",
+  "generatedAt": "2026-10-11T17:18:40+08:00",
   "runtime": {
     "mode": "public_snapshot",
     "pollSeconds": 60,
@@ -19,7 +19,7 @@
     "mainContradiction": "服务业需求仍扩张，但价格压力和高实际利率压缩风险资产容错。",
     "systemRisk": "高实际利率提高警戒；广谱信用和资金未共振，单名CDS与Treasury市场功能层不完整，系统压力未确认。",
     "marketTraded": "标普周+1.15%、纳指+0.64%、黄金+1.39%、铜+3.37%，SOX-4.30%；价格分化而非全面去风险。",
-    "dataVerdict": "需求仍扩张，实际利率高位；本周长端小幅回落。MSPD9月期限结构与GLD本周流量暂不作判断。",
+    "dataVerdict": "需求仍扩张，实际利率高位；本周长端小幅回落。MSPD9月结构已核，GLD本周流量仍不作判断。",
     "topChanges": [
       {
         "title": "利率本周回落",
@@ -189,7 +189,7 @@
         "title": "本周结论：扩张尚在，资本成本仍高",
         "summary": "2026年10月11日 · 市场窗口10月2日至9日。美国服务业需求仍扩张、就业回升，价格分项继续升高。本周长端小幅回落，但10年实际利率仍为2.91%，对久期与高估值资产的折现约束并未明显缓解。盈利与资本开支扩张仍在，融资回报容错下降；广谱信用与资金市场尚未确认系统性融资失灵。",
         "paragraphs": [
-          "数据例外：MSPD9月期限结构尚未核实，8月仅作历史；GLD10月9日吨数未取得，不确认本周ETF资金流。各系列按真实观察日解释。"
+          "数据例外：收益率曲线及名义/实际/通胀补偿截至10/9；债务剩余期限分布为最新官方月报9/30，日总量10/8；GLD10月9日吨数未取得，不确认本周ETF资金流。各系列按真实观察日解释。"
         ],
         "sources": [],
         "reading_layer": "main",
@@ -344,8 +344,8 @@
                   "能源成本冲击不等于欧洲需求繁荣"
                 ],
                 [
-                  "10/9资产分化",
-                  "美债回落，股指稳、SOX弱，铜金油涨",
+                  "截至10/9周度表现",
+                  "美债收益率回落，股指稳、SOX弱，铜金油涨",
                   "不支持单一“所有久期都遭抛售”叙事"
                 ]
               ]
@@ -1209,9 +1209,9 @@
       {
         "id": "R2-21",
         "title": "债务、供给与市场承接：存量不等于危机",
-        "summary": "10月8日Debt-to-Penny总债务40.3053万亿美元；债务类型和剩余期限的9月MSPD取数失败，保留8月背景，不把日度总量升级冒充月度结构更新。",
+        "summary": "10月8日Debt-to-Penny总债务40.3053万亿美元；债务类型和剩余期限采用截至10/11可得最新MSPD月报9/30。收益率期限曲线已至10/9，与月末债务存量结构不是同一指标。",
         "paragraphs": [
-          "日度总量截至10/8；图内月度证券类型与剩余期限仍为8/31历史。9月MSPD required/fetch_failed；禁止据此作9月结构变化结论。"
+          "日总量10/8为40.305万亿美元；MSPD月结构9/30已核。一年内33.43%，较8月降0.41个百分点；十年以上18.31%，升0.07个百分点。分桶按365/1826/3652天，排除FFB及无日期已到期未兑；不是净发行或DV01。"
         ],
         "sources": [
           {
@@ -1225,7 +1225,7 @@
         ],
         "reading_layer": "main",
         "insight": {
-          "takeaway": "10月8日Debt-to-Penny总债务40.3053万亿美元；债务类型和剩余期限的9月MSPD取数失败，保留8月背景，不把日度总量升级冒充月度结构更新。",
+          "takeaway": "10月8日Debt-to-Penny总债务40.3053万亿美元；债务类型和剩余期限采用截至10/11可得最新MSPD月报9/30。收益率期限曲线已至10/9，与月末债务存量结构不是同一指标。",
           "detailTables": []
         }
       },
@@ -1560,6 +1560,80 @@
                 [
                   "StockAnalysis / S&P Global",
                   "9家美股及韩日个股当前同源复权价格"
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "R2-31",
+        "title": "欧洲国债：法国阶段性修复，财政溢价未消退",
+        "summary": "法国10年收益率本周回落，德国10年日值仍小幅上升，不能概括成欧洲久期全面转强。德国为滚动最新券，2年券本周有基准切换；法国TEC为恒定期限插值，两国点值不相减充当交易利差。",
+        "paragraphs": [
+          "标准10年OAT-Bund利差140bp，观测为10/8收盘（ING10/9发布）；10/9同口径收盘仍缺。ECB存款利率9/16起2.50%，APP/PEPP不再到期再投资。ING Pesole（10/9）认为法国财政溢价压制欧元修复；Tukker/Schroeder（10/5）认为短端偏鸽重定价可与长端供给压力并存，但德国2Y本周上行并未实现其短端情景。Bessemer（10/9，未署个人作者）承认财政约束，但反对直接类比希腊或预设国际救助。我们的判断：可信预算措施与利差持续收敛才改善欧元/欧股容错；若利差再扩并伴银行信用转弱，防守优先。能源、工资二轮效应或美国实际率再升会削弱宽松预期；不能因法债单周修复追逐长久期，美债/黄金避险仍须各自实际率、美元和资金流确认。"
+        ],
+        "sources": [
+          {
+            "title": "Deutsche Bundesbank：Daily yields of current Federal securities",
+            "url": "https://www.bundesbank.de/resource/blob/772220/f7993fbb4cc9f6c0bee85766b8b815aa/472B63F073F071307366337C94F8C870/rendbund-data.pdf"
+          },
+          {
+            "title": "Agence France Trésor：TEC 10 du jour",
+            "url": "https://www.aft.gouv.fr/fr/tec-10-du-jour"
+          },
+          {
+            "title": "ING：FX Daily: High bar for a dollar correction",
+            "url": "https://think.ing.com/articles/fx-daily-high-bar-for-a-dollar-correction/"
+          },
+          {
+            "title": "ING：Rates Spark: Repricing the ECB path",
+            "url": "https://think.ing.com/articles/rates-spark-repricing-the-ecb-path/"
+          },
+          {
+            "title": "Bessemer Trust：Weekly Investment Update (10/09/2026)",
+            "url": "https://www.bessemertrust.com/insights/weekly-investment-update-10092026"
+          },
+          {
+            "title": "ECB：Monetary policy decisions",
+            "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html"
+          }
+        ],
+        "reading_layer": "main",
+        "insight": {
+          "takeaway": "法国10年收益率本周回落，德国10年日值仍小幅上升，不能概括成欧洲久期全面转强。德国为滚动最新券，2年券本周有基准切换；法国TEC为恒定期限插值，两国点值不相减充当交易利差。",
+          "detailTables": [
+            {
+              "headers": [
+                "官方日值／%",
+                "10/2",
+                "10/9",
+                "周变"
+              ],
+              "rows": [
+                [
+                  "德国2年最新券",
+                  "3.01",
+                  "3.09",
+                  "+8bp"
+                ],
+                [
+                  "德国10年最新券",
+                  "3.43",
+                  "3.47",
+                  "+4bp"
+                ],
+                [
+                  "德国30年最新券",
+                  "3.82",
+                  "3.85",
+                  "+3bp"
+                ],
+                [
+                  "法国10年TEC（AFT摘要）",
+                  "4.90",
+                  "4.79",
+                  "约-11bp"
                 ]
               ]
             }
@@ -1933,8 +2007,9 @@
       }
     ],
     "dataNotes": [
-      "不同数据按真实业务日解读。",
-      "MSPD9月未取得，8月结构仅历史；GLD10月9日吨数未核，不确认本周ETF流入。"
+      "收益率曲线/名义实际通胀补偿截至10/9；债务剩余期限为最新MSPD月报9/30，日总量10/8。",
+      "GLD10月9日吨数未核，不确认本周ETF流入；其他未决来源仍保留。",
+      "质量分母分列：全站继承质量快照检查于10/10，66字段未齐；本期R5报告native为8族88字段，28字段partial/unavailable。两者覆盖范围不同，均不是全部最新或独立QA通过。"
     ],
     "priorityEvents": [
       {
@@ -1956,7 +2031,7 @@
         "question": "中国Q3 GDP、工业、消费与地产是否出现至少两层扩散？"
       }
     ],
-    "revision": "r4",
+    "revision": "r5",
     "priorReview": [],
     "impactMap": [],
     "forecastPanels": [],
@@ -27659,7 +27734,7 @@
     },
     "treasuryDebt": {
       "schema_version": "1.1",
-      "build_date": "2026-10-11T15:44:27+08:00",
+      "build_date": "2026-10-11T17:11:01+08:00",
       "requested_as_of": "2026-10-09",
       "daily_total": {
         "data_date": "2026-10-08",
@@ -27669,33 +27744,67 @@
         "intragov_holdings_trn": 7.8512300931184
       },
       "monthly_structure": {
-        "data_date": "2026-08-31",
-        "total_debt_trn": 40.175641129433295,
-        "bills_trn": 7.2480700207,
-        "notes_trn": 16.2184209377,
-        "bonds_trn": 5.5252840943,
-        "tips_trn": 2.1526598441126397,
-        "frn_trn": 0.6799756013,
-        "marketable_trn": 31.8280014636126
+        "data_date": "2026-09-30",
+        "total_debt_trn": 40.1718251066275,
+        "marketable_trn": 31.8348784434023,
+        "bills_trn": 7.1181453141,
+        "notes_trn": 16.2815073155,
+        "bonds_trn": 5.5510178251,
+        "tips_trn": 2.17264157170234,
+        "frn_trn": 0.7079754515
       },
       "remaining_maturity": {
-        "data_date": "2026-08-31",
-        "le_1y_trn": 10.768676913287074,
-        "1_5y_trn": 11.016049845501074,
-        "5_10y_trn": 4.236055183482259,
-        "gt_10y_trn": 5.803566599642238,
-        "marketable_ex_ffb_trn": 31.824348541912645,
-        "le_1y_share_pct": 33.837854996795095,
-        "gt_10y_share_pct": 18.23624635080572,
-        "definition": "Exact remaining-maturity buckets from MSPD Table 3 marketable security rows; excludes the Federal Financing Bank line without a maturity date."
+        "data_date": "2026-09-30",
+        "le_1y_trn": 10.64015536335408,
+        "1_5y_trn": 11.06277887853457,
+        "5_10y_trn": 4.29982361920072,
+        "gt_10y_trn": 5.82846772161297,
+        "marketable_ex_ffb_trn": 31.83122558270234,
+        "le_1y_share_pct": 33.426785078410965,
+        "gt_10y_share_pct": 18.31053506397273,
+        "definition": "Unique CUSIP remaining maturity at month end; thresholds 365/1826/3652 days. Excludes FFB and undated matured-unredeemed securities; TIPS outstanding includes inflation adjustment."
       },
       "sources": [
         {
-          "name": "U.S. Treasury Debt to the Penny: independently verified extract",
-          "url": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny",
-          "sha256": "B6ACC7A25C092334CCC7516F9F1A282572DA6669021E8A498ECE6D50F6ABDBD9",
-          "evidence_kind": "verified_extract",
+          "name": "U.S. Treasury: mspd_table_1_20260930",
+          "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/debt/mspd/mspd_table_1?filter=record_date%3Aeq%3A2026-09-30&page%5Bsize%5D=100",
+          "sha256": "d325655cd2828bfd8d0e07a27981fd7ccee2a29426feeef370097aee2c6c28c6",
+          "business_date": "2026-09-30"
+        },
+        {
+          "name": "U.S. Treasury: mspd_table_3_20260930",
+          "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/debt/mspd/mspd_table_3_market?filter=record_date%3Aeq%3A2026-09-30&page%5Bsize%5D=10000",
+          "sha256": "154f1b01ac5ea8af672530c1b4a5609a4f1902c3040b419dcd8b388987f2aa1f",
+          "business_date": "2026-09-30"
+        },
+        {
+          "name": "U.S. Treasury: debt_to_penny_latest",
+          "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny?filter=record_date%3Agte%3A2026-10-01%2Crecord_date%3Alte%3A2026-10-11&sort=-record_date&page%5Bsize%5D=20",
+          "sha256": "eef03c73626cba4f45d87831c4ccb87cbbfb46f85abf953f432cb5a290741cc0",
           "business_date": "2026-10-08"
+        }
+      ],
+      "outputs": {
+        "daily_month_end": "output/data/macro_weekly/treasury_debt_daily_month_end_202101_202609.csv",
+        "type_monthly": "output/data/macro_weekly/treasury_debt_type_monthly_202101_202608.csv",
+        "maturity_monthly": "output/data/macro_weekly/treasury_debt_maturity_monthly_202307_202608.csv"
+      },
+      "quality": {
+        "daily_total": "official_current_with_publication_lag",
+        "monthly_structure": "official_latest_month_verified_20260930",
+        "remaining_maturity": "official_latest_month_verified_20260930",
+        "daily_lag_days": 1,
+        "marketable_bridge_difference_trn": 0.0036528606999581825,
+        "ffb_trn": 0.0035909655,
+        "matured_undated_trn": 6.189519999e-05
+      },
+      "lineage_note": "Report-local adoption, no production collector refresh",
+      "historical_superseded_sources": [
+        {
+          "name": "U.S. Treasury Debt to the Penny",
+          "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny",
+          "sha256": "5B8A670FFAF13595C7D91B54F02F6CAD4BBBB1A50B4A3669F8FC6AF378B3A8DD",
+          "used_for_current_daily_total": false
         },
         {
           "name": "U.S. Treasury MSPD Table 1",
@@ -27708,27 +27817,15 @@
           "sha256": "3B0E996C2FCF055B9ED436324CF2B6E893582E1792AD0F93083758F1C1C7BCB7"
         }
       ],
-      "outputs": {
-        "daily_month_end": "output/data/macro_weekly/treasury_debt_daily_month_end_202101_202609.csv",
-        "type_monthly": "output/data/macro_weekly/treasury_debt_type_monthly_202101_202608.csv",
-        "maturity_monthly": "output/data/macro_weekly/treasury_debt_maturity_monthly_202307_202608.csv"
+      "publication": {
+        "official_rule": "Fourth business day each month, prior month-end debt.",
+        "rule_url": "https://fiscaldata.treasury.gov/datasets/monthly-statement-public-debt/",
+        "scheduled_release_date": "2026-10-06",
+        "scheduled_release_date_kind": "calendar_inference_from_official_rule",
+        "actual_release_timestamp": null,
+        "confirmed_available_at": "2026-10-11T16:58:33.433314+08:00"
       },
-      "quality": {
-        "daily_total": "official_current_with_publication_lag",
-        "monthly_structure": "required_fetch_failed_20260930_last_verified_20260831",
-        "remaining_maturity": "required_fetch_failed_20260930_last_verified_20260831",
-        "daily_lag_days": 1,
-        "marketable_bridge_difference_trn": 0.0036529216999561243
-      },
-      "lineage_note": "Report-local adoption, no production collector refresh",
-      "historical_superseded_sources": [
-        {
-          "name": "U.S. Treasury Debt to the Penny",
-          "url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny",
-          "sha256": "5B8A670FFAF13595C7D91B54F02F6CAD4BBBB1A50B4A3669F8FC6AF378B3A8DD",
-          "used_for_current_daily_total": false
-        }
-      ],
+      "artifact_local_only": true,
       "history": {
         "daily_month_end": [
           {
@@ -28902,6 +28999,16 @@
             "tips_trn": 2.1526598441126397,
             "frn_trn": 0.6799756013,
             "date": "2026-08-31"
+          },
+          {
+            "record_date": "2026-09-30",
+            "marketable_trn": 31.8348784434023,
+            "bills_trn": 7.1181453141,
+            "notes_trn": 16.2815073155,
+            "bonds_trn": 5.5510178251,
+            "tips_trn": 2.17264157170234,
+            "frn_trn": 0.7079754515,
+            "date": "2026-09-30"
           }
         ],
         "maturity_monthly": [
@@ -29322,10 +29429,21 @@
             "le_1y_share_pct": 33.837854996795095,
             "gt_10y_share_pct": 18.23624635080572,
             "date": "2026-08-31"
+          },
+          {
+            "record_date": "2026-09-30",
+            "le_1y_trn": 10.64015536335408,
+            "1_5y_trn": 11.06277887853457,
+            "5_10y_trn": 4.29982361920072,
+            "gt_10y_trn": 5.82846772161297,
+            "marketable_ex_ffb_trn": 31.83122558270234,
+            "le_1y_share_pct": 33.426785078410965,
+            "gt_10y_share_pct": 18.31053506397273,
+            "date": "2026-09-30"
           }
         ]
       },
-      "currentException": "9月MSPD required / fetch_failed；证券类型和期限历史仅至2026-08-31，不据此判断9月结构变化。"
+      "currentException": "月结构最新为2026-09-30；日总量截至10/8。9月分桶不含FFB 3.590966十亿美元及无日期已到期未兑0.061895十亿美元；不将存量变化解释为净久期。"
     }
   },
   "series": {
@@ -85412,7 +85530,7 @@
       {
         "level": "warning",
         "code": "important_data_coverage_incomplete",
-        "detail": "66 fields remain partial/unavailable"
+        "detail": "Inherited full-site snapshot checked 2026-10-10: 66 fields partial/unavailable; different coverage from R5 report-native 8 families / 88 fields, 28 partial/unavailable. Not a unified revalidation."
       },
       "新闻主题待研读：5",
       "事件结果待补：7"
@@ -85431,7 +85549,20 @@
     "checkedAt": "2026-10-10T13:28:22.116561+08:00",
     "dataReady": false,
     "allCurrent": false,
-    "independentQA": "pending"
+    "independentQA": "pending",
+    "inheritedScope": {
+      "checkedAt": "2026-10-10T13:28:22.116561+08:00",
+      "scope": "inherited full-site operational data, not R5 report-only validation",
+      "unresolvedFields": 66
+    },
+    "reportLocalScope": {
+      "checkedAt": "2026-10-11T17:18:40+08:00",
+      "scope": "R5 report native: 8 families x 11 fields",
+      "totalFields": 88,
+      "unresolvedFields": 28,
+      "independentQA": "pending",
+      "allCurrent": false
+    }
   },
   "researchContext": {
     "schemaVersion": "1.0",
