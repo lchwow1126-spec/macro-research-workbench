@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-11T17:18:40+08:00",
+  "generatedAt": "2026-10-11T18:08:42+08:00",
   "runtime": {
     "mode": "public_snapshot",
     "pollSeconds": 60,
@@ -1639,6 +1639,86 @@
             }
           ]
         }
+      },
+      {
+        "id": "FLOW-20261011",
+        "title": "跨区域资金配置：债基偏强，欧洲转向美国尚待证",
+        "summary": "近期债券基金获净申购，但尚不能确认本周“卖欧债、买美债”。月度欧洲报告地区长期美债净买入，与近两周外国官方美债托管下降并存；这些不同频率、不同投资者的证据不能相抵。",
+        "paragraphs": [
+          "地区并非一致：7月长期美债净交易法国-87.15、德国+1.48、英国+52.80亿美元；TIC“欧洲”含英国，不等于欧元区或最终投资者。ECB截至7月的12个月，欧区居民净买域外债6,220亿欧元，境外净买欧区债6,310亿欧元；没有美国目的地拆分，不支持该年度窗口的全面逃离欧债。",
+          "机构观点与我们的判断：ING Tukker（10/8）认为全球波动削弱欧债杠杆套息吸引力；Lido（10/9）提醒美国自身财政也限制美债避险承接。相对价格可以提出假设，不能证明净迁移；美债避险、美股／公司债增长配置要分开，并比较同期限、同币种对冲后的回报。",
+          "下周验证：先看同源同样本欧债基金连续2周净流出、美国国债基金连续2周净流入，且各4周累计同向，再用TIC地域净交易交叉核验。该基金细分当前缺失，状态不可判定；若欧美同流出，优先考虑整体降风险；美债基金转流出或TIC转负则撤销配置线索。上述为研究观察条件，未经回测，不自动交易。",
+          "历史纠偏：1997为亚洲金融危机，1998为俄罗斯／LTCM压力，互联网泡沫主要于2000年破裂。BIS关于上世纪末赴美配置及并购的研究只是机制参考，并购公告不等于证券净流量，也不证明本轮重演。"
+        ],
+        "sources": [
+          {
+            "title": "Treasury TIC：7月长期证券交易；9/16发布，下一期10/16",
+            "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table1.txt"
+          },
+          {
+            "title": "ICI：截至9/30周；10/7发布，共同基金净现金流＋ETF净发行",
+            "url": "https://www.ici.org/research/stats/combined_flows"
+          },
+          {
+            "title": "Fed H.4.1表1A：10/7周三存量；10/8发布",
+            "url": "https://www.federalreserve.gov/releases/h41/20261008/"
+          },
+          {
+            "title": "ECB：截至7月12个月累计；9/18发布，下一期10/20",
+            "url": "https://www.ecb.europa.eu/press/stats/bop/2026/html/ecb.bp260918~ef4843e4f5.en.html"
+          },
+          {
+            "title": "ING Tukker：10/8利差与波动观点",
+            "url": "https://think.ing.com/articles/rates-spark-volatility-is-no-friend-of-spreads/"
+          },
+          {
+            "title": "Lido：10/9法国债务研究意见",
+            "url": "https://www.lidoadvisors.com/perspectives/investment-management/frances-debt-squeeze-what-investors-need-to-know/"
+          },
+          {
+            "title": "BIS：跨大西洋并购与汇率（2001研究）",
+            "url": "https://www.bis.org/publications/qr/r-qt0112g.pdf"
+          },
+          {
+            "title": "BIS：外汇对冲与全球金融体系（2025）",
+            "url": "https://www.bis.org/publications/aer-2025/financial-conditions-changing-global-financial-system"
+          }
+        ],
+        "reading_layer": "main",
+        "insight": {
+          "takeaway": "近期债券基金获净申购，但尚不能确认本周“卖欧债、买美债”。月度欧洲报告地区长期美债净买入，与近两周外国官方美债托管下降并存；这些不同频率、不同投资者的证据不能相抵。",
+          "detailTables": [
+            {
+              "headers": [
+                "证据层／口径",
+                "近三期（亿美元）",
+                "判断边界"
+              ],
+              "rows": [
+                [
+                  "TIC：欧洲报告地区长期美债净买入（不含Bills）",
+                  "5月 +21.76 → 6月 +61.88 → 7月 +83.04",
+                  "月度真实净交易；不是10月当周，也不识别资金来源。"
+                ],
+                [
+                  "ICI：美国股票投资目标基金",
+                  "9/16 -114.87 → 9/23 +57.95 → 9/30 -73.26",
+                  "并非连续流入美股；分类不识别欧洲投资者。"
+                ],
+                [
+                  "ICI：债券基金合计",
+                  "9/16 +32.44 → 9/23 +81.56 → 9/30 +34.55",
+                  "债基有申购，不是美债专属；共同基金＋ETF口径。"
+                ],
+                [
+                  "Fed：外国官方可流通美债托管存量",
+                  "9/23 25,974.51 → 9/30 25,823.50 → 10/7 25,654.77",
+                  "两周减151.01、168.73；存量变化不等于净卖出。"
+                ]
+              ]
+            }
+          ]
+        }
       }
     ],
     "outlook": [
@@ -2009,7 +2089,8 @@
     "dataNotes": [
       "收益率曲线/名义实际通胀补偿截至10/9；债务剩余期限为最新MSPD月报9/30，日总量10/8。",
       "GLD10月9日吨数未核，不确认本周ETF流入；其他未决来源仍保留。",
-      "质量分母分列：全站继承质量快照检查于10/10，66字段未齐；本期R5报告native为8族88字段，28字段partial/unavailable。两者覆盖范围不同，均不是全部最新或独立QA通过。"
+      "质量分母分列：全站继承质量快照检查于10/10，66字段未齐；本期R5报告native为8族88字段，28字段partial/unavailable。两者覆盖范围不同，均不是全部最新或独立QA通过。",
+      "R6资金配置：TIC最新7月、ICI截至9/30周、Fed托管截至10/7周三、ECB截至7月12个月累计分列；本周欧洲卖债买美债未确认。"
     ],
     "priorityEvents": [
       {
@@ -2031,7 +2112,7 @@
         "question": "中国Q3 GDP、工业、消费与地产是否出现至少两层扩散？"
       }
     ],
-    "revision": "r5",
+    "revision": "r6",
     "priorReview": [],
     "impactMap": [],
     "forecastPanels": [],

@@ -1,7 +1,9 @@
 {
   "status": "unpublished_author_candidate",
   "report_date": "2026-10-11",
-  "revision": "r5",
+  "market_close": "2026-10-09",
+  "revision": "r6",
   "all_current": false,
-  "independent_qa": "pending"
+  "independent_qa": "pending",
+  "new_section": "FLOW-20261011"
 }
