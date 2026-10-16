@@ -5,5 +5,6 @@
   "revision": "r7",
   "all_current": false,
   "source_gate_passed": false,
-  "independent_qa": "pending"
+  "independent_qa": "pending",
+  "snapshot_sha256": "5fde6cf7db6b462ec9ce17b2d29548671be716e5ce76c276fb24b5ff66a531c4"
 }
