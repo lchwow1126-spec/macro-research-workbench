@@ -1,6 +1,10 @@
 {
   "status": "unpublished_author_candidate",
-  "report_date": "2026-10-18",
+  "report_date": "2026-10-25",
   "all_current": false,
-  "independent_qa": "pending"
+  "independent_qa": "pending",
+  "candidate_version": "v4",
+  "snapshot_sha256": "ceedf6c95467ce4d189f3e67db03c0bfa5c172fbd4597569bbb186f64ad7ef5d",
+  "projection": "restricted_gld_legacy_public_only",
+  "published": false
 }
